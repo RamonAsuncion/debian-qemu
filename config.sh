@@ -1,0 +1,5 @@
+DEBIAN_ISO="./DebianOS.iso"
+QEMU_FLAGS="-display gtk -enable-kvm -m 4096 -cpu host" 
+QEMU_IMG_SIZE="5G" 
+QEMU_MOUNT_DIR="./mnt/"
+QEMU_MOUNT_OFFSET="1048576"
