@@ -17,3 +17,12 @@ https://www.debian.org/distrib/
 
 ./mount debian.img
 
+
+## References
+create.sh
+* https://bash.cyberciti.biz/guide/$1 
+
+mount.sh
+* https://www.cloudsavvyit.com/7517/how-to-mount-a-qemu-virtual-disk-image/ 
+* https://askubuntu.com/questions/1096849/cant-make-new-dir-with-mkdir
+

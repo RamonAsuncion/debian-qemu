@@ -11,6 +11,8 @@ set -xe
 
 source ./config.sh
 
+echo "Running $1 ..."
+
 # Check if there is anything currently mounted.
 sync
 sudo umount $QEMU_MOUNT_DIR || echo "not mounted"
